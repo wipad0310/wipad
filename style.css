@@ -1,0 +1,119 @@
+
+html {
+  background: url(https://cdn.glitch.global/979030ad-8447-4894-a7e4-e2746e71a74f/background.jpg?v=1733065396879);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(255,255,255); 
+  height: 100%;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  color: white;
+  font-family: Parkinsans;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  margin: 0 100px 0 100px;
+  display: grid;
+  justify-content: center;
+  
+}
+#cut {
+  height: 100px;
+  width: 100px;
+  border-radius: 60%;
+  border: 3px white solid;
+
+}
+
+#mention {
+  font-weight: 500px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+}
+
+
+
+.fb a {
+  backdrop-filter: blur(4px);
+  width: 600px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: white;
+  border: 1px rgb(120, 120, 120) solid;
+  border-radius: 8px 8px 8px 8px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 0;
+  transition: 0.2s;
+}
+.fb a:hover {
+  backdrop-filter: blur(0);
+  border: 1px rgb(255, 255, 255) solid;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#line {
+  height: 1px;
+  width: 400px;
+  margin: 0 auto 10px auto;
+  background-color: white;
+}
+#copyright {
+  font-size: 13px;
+}
+footer {
+    
+    margin-top: 100px;
+  }
+
+@media (max-width: 480px) {
+  html {
+    height: 125%;
+  }
+
+  
+  .fb a {
+    width: 220px;
+  }
+  
+  #line {
+    
+    width: 270px;
+  }
+
+}
+
+  
+  #fb {
+    margin: 0 50px 0 50px;
+  }
+  
+
